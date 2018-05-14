@@ -22,10 +22,11 @@
                 <div id="main-nav" class="collapse navbar-collapse navStyle">
                     <ul class="nav navbar-nav" id="mainNav">
                         <li class="active"><a href="#hero_section" class="scroll-link">首页</a></li>
-                        <li><a href="#aboutUs" class="scroll-link">新闻活动</a></li>
+                        <li><a href="#clients" class="scroll-link">新闻活动</a></li>
                         <li><a href="#service" class="scroll-link">常见问题</a></li>
                         <li><a href="#Portfolio" class="scroll-link">商务合作</a></li>
-                        <li><a href="#clients" class="scroll-link">关于我们</a></li>
+                        <li><a href="#aboutUs" class="scroll-link">关于我们</a></li>
+                        <li><a href="#download" class="scroll-link">下载</a></li>
                         <!--<li><a href="#team" class="scroll-link">Team</a></li>-->
                         <li><a href="#contact" class="scroll-link">联系我们</a></li>
                     </ul>
@@ -43,15 +44,35 @@
             <div class="hero_section">
                 <div class="row">
                     <div class="col-md-12">
-
                         <div class="top_left_cont zoomIn wow animated">
-                            <h2>SUCCESS of your <br> <strong>Business</strong></h2>
-
+                            <h2>儿童编程 <br></h2>
+                            <img src="" alt="儿童编程">
                             <div class="underline"></div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting<br/> The industry's
-                                standard dummy.</p>
-                            <a href="#service" class="read_more2">Find out more</a></div>
+                            <hr/>
+                            <p>长文字介绍儿童编程</p>
+                            <a href="#download" class="read_more2">download</a>
+
+                            <!--介绍游戏-->
+                            <img src="" alt="游戏界面">
+                            <p>长文字介绍游戏</p>
+
+                            <!--级别介绍-->
+                            <img src="" alt="级别图">
+                            <p>介绍级别</p>
+
+                            <!--编程用语介绍-->
+                            <img src="" alt="积木图">
+                            <p>编程用语介绍</p>
+
+                            <!--编程用语介绍-->
+                            <p>文字介绍视频</p>
+                            <video src="" autoplay>无法播放该视频</video>
+                            <hr>
+                            <h3>内容预告：</h3>
                     </div>
+                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -59,80 +80,21 @@
 </section>
 <!--Hero_Section-->
 
-<section id="aboutUs"><!--Aboutus-->
-    <div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
-        <div class="container">
-            <h2>About Us</h2>
-            <h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
-            <div class="inner_section">
-                <div class="row">
-                    <div class="col-md-6"><img class="img-responsive" src="img/about1.jpg" align=""></div>
-                    <div class="col-md-6">
-                        <h3>Who we are</h3>
-                        <p>Lorem ipsum dolor sit amet, quo meis voluptaria, erant bonorum albucius et per, ei placerat
-                            eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant
-                            bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel. Te
-                            sit malorum ceteros repudiandae, ne tritani adipisci vis.</p><br/>
-                        <h3>Why choose us?</h3>
-                        <p>Lorem ipsum dolor sit amet, voluptaria, erant bonorum albucius et per, ei meis audire
-                            placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria,
-                            erant voluptaria, erant bonorum albucius et per, ei albucius et per, ei sapientem
-                            accommodare est. Saepe dolorum constituam ei vel.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 about-us">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>Our Business</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida
-                                    tortor orci ipsum grectetur.sem quisci ipsum gravida tortor orci ipsum grectetur.
-                                    <br/> <br/>
-                                    Lorem ipsum dolor sit ametbi sagittis, orci ipsum gravida tortor. Lorem ipssum
-                                    gravida tortor. Lorem ipssum gravida tortor. Lorem ipssum gravida tortor. Lorem
-                                    ipssum gravida tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida
-                                    tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, consectetur. <br/>
-                                    <br/>
-                                    Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quis lacinia faucibus,
-                                    orci ipsum gravida tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                </p>
-
-
-                            </div><!-- /.col-md-6 -->
-                            <div class="col-md-6">
-                                <h3>We Design Awesome Web Apps</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida
-                                    tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, tortor orci ipsum
-                                    gravida tortor. Lorem ipsum dolor sit amet, conseconsectetur.
-                                </p>
-
-                                <ul class="about-us-list">
-                                    <li class="points">Consectetur Morbi sagittis, sem quisci ipsum gravida tortor</li>
-                                    <li class="points">Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida
-                                    </li>
-                                    <li class="points">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem
-                                        quisci gravida
-                                    </li>
-                                    <li class="points">Sagittis, sem quis lacinia faucibus, orci ipsum gravida</li>
-                                    <li class="points">Ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci</li>
-                                </ul><!-- /.about-us-list -->
-
-                            </div><!-- /.col-md-6 -->
-
-                        </div><!-- /.row -->
-                    </div><!-- /.col-lg-12 -->
-                </div>
-
-            </div>
-        </div>
-    </div>
+<section class="page_section" id="clients"><!--page_section-->
+    <h2>新闻活动</h2>
+    <!-- &lt;!&ndash;page_section&ndash;&gt;
+     <div class="client_logos">&lt;!&ndash;client_logos&ndash;&gt;
+         <div class="container">
+             <ul class="fadeInRight animated wow">
+                 <li><a href="javascript:void(0)"><img src="img/client_logo1.png" alt=""></a></li>
+                 <li><a href="javascript:void(0)"><img src="img/client_logo2.png" alt=""></a></li>
+                 <li><a href="javascript:void(0)"><img src="img/client_logo3.png" alt=""></a></li>
+                 <li><a href="javascript:void(0)"><img src="img/client_logo5.png" alt=""></a></li>
+             </ul>
+         </div>
+     </div>-->
 </section>
-<!--Aboutus-->
+<!--client_logos-->
 
 
 <!--Service-->
@@ -377,21 +339,87 @@
 </section>
 <!--/Portfolio -->
 
-<section class="page_section" id="clients"><!--page_section-->
-    <h2>Clients</h2>
-    <!--page_section-->
-    <div class="client_logos"><!--client_logos-->
+<section id="aboutUs"><!--Aboutus-->
+    <div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
         <div class="container">
-            <ul class="fadeInRight animated wow">
-                <li><a href="javascript:void(0)"><img src="img/client_logo1.png" alt=""></a></li>
-                <li><a href="javascript:void(0)"><img src="img/client_logo2.png" alt=""></a></li>
-                <li><a href="javascript:void(0)"><img src="img/client_logo3.png" alt=""></a></li>
-                <li><a href="javascript:void(0)"><img src="img/client_logo5.png" alt=""></a></li>
-            </ul>
+            <h2>About Us</h2>
+            <h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
+            <div class="inner_section">
+                <div class="row">
+                    <div class="col-md-6"><img class="img-responsive" src="img/about1.jpg" align=""></div>
+                    <div class="col-md-6">
+                        <h3>Who we are</h3>
+                        <p>Lorem ipsum dolor sit amet, quo meis voluptaria, erant bonorum albucius et per, ei placerat
+                            eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant
+                            bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel. Te
+                            sit malorum ceteros repudiandae, ne tritani adipisci vis.</p><br/>
+                        <h3>Why choose us?</h3>
+                        <p>Lorem ipsum dolor sit amet, voluptaria, erant bonorum albucius et per, ei meis audire
+                            placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria,
+                            erant voluptaria, erant bonorum albucius et per, ei albucius et per, ei sapientem
+                            accommodare est. Saepe dolorum constituam ei vel.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 about-us">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Our Business</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida
+                                    tortor orci ipsum grectetur.sem quisci ipsum gravida tortor orci ipsum grectetur.
+                                    <br/> <br/>
+                                    Lorem ipsum dolor sit ametbi sagittis, orci ipsum gravida tortor. Lorem ipssum
+                                    gravida tortor. Lorem ipssum gravida tortor. Lorem ipssum gravida tortor. Lorem
+                                    ipssum gravida tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida
+                                    tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, consectetur. <br/>
+                                    <br/>
+                                    Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quis lacinia faucibus,
+                                    orci ipsum gravida tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </p>
+
+
+                            </div><!-- /.col-md-6 -->
+                            <div class="col-md-6">
+                                <h3>We Design Awesome Web Apps</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida
+                                    tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, tortor orci ipsum
+                                    gravida tortor. Lorem ipsum dolor sit amet, conseconsectetur.
+                                </p>
+
+                                <ul class="about-us-list">
+                                    <li class="points">Consectetur Morbi sagittis, sem quisci ipsum gravida tortor</li>
+                                    <li class="points">Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida
+                                    </li>
+                                    <li class="points">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem
+                                        quisci gravida
+                                    </li>
+                                    <li class="points">Sagittis, sem quis lacinia faucibus, orci ipsum gravida</li>
+                                    <li class="points">Ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci</li>
+                                </ul><!-- /.about-us-list -->
+
+                            </div><!-- /.col-md-6 -->
+
+                        </div><!-- /.row -->
+                    </div><!-- /.col-lg-12 -->
+                </div>
+
+            </div>
         </div>
     </div>
 </section>
-<!--client_logos-->
+<!--Aboutus-->
+
+<!--download-->
+<section id="download">
+    <h2>下载</h2>
+
+</section>
+
 
 <!--<section class="page_section team" id="team">&lt;!&ndash;main-section team-start&ndash;&gt;
     <div class="container">
