@@ -1,561 +1,727 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, maximum-scale=1">
-    <title>首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home</title>
     <#include "common.ftl">
+    <link rel="shortcut icon" href="${ctx}images/ico/favicon.ico">
 </head>
-<body>
-<!--Header_section-->
-<header id="header_wrapper">
-    <div class="container">
-        <div class="header_box">
-            <div class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
-            <nav class="navbar navbar-inverse" role="navigation">
-                <div class="navbar-header">
-                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse"
-                            data-target="#main-nav"><span class="sr-only">Toggle navigation</span> <span
-                            class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-                    </button>
+
+<body id="home">
+
+<header id="header">
+    <nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="${ctx}/images/WechatIMG2.png" alt="logo"></a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="scroll active"><a href="#home">Home</a></li>
+                    <li class="scroll"><a href="#products">Products</a></li>
+                    <li class="scroll"><a href="#services">Services</a></li>
+                    <li class="scroll"><a href="#about">About</a></li>
+                    <li class="scroll"><a href="#portfolio">Portfolio</a></li>
+                    <li class="scroll"><a href="#team">Team</a></li>
+                    <li class="scroll"><a href="#pricing">Pricing</a></li>
+                    <li class="scroll"><a href="#contact-us">Contact</a></li>
+                </ul>
+            </div>
+        </div><!--/.container-->
+    </nav><!--/nav-->
+</header><!--/header-->
+
+<section id="hero-banner">
+    <div class="banner-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+
+                <#--<h2>Best OnePage Bootstrap Business Template</h2> -->
+                <#--<a href="#" class="download-btn">Read More</a>-->
+
                 </div>
-                <div id="main-nav" class="collapse navbar-collapse navStyle">
-                    <ul class="nav navbar-nav" id="mainNav">
-                        <li class="active"><a href="#hero_section" class="scroll-link">首页</a></li>
-                        <li><a href="#clients" class="scroll-link">新闻活动</a></li>
-                        <li><a href="#service" class="scroll-link">常见问题</a></li>
-                        <li><a href="#Portfolio" class="scroll-link">商务合作</a></li>
-                        <li><a href="#aboutUs" class="scroll-link">关于我们</a></li>
-                        <li><a href="#download" class="scroll-link">下载</a></li>
-                        <!--<li><a href="#team" class="scroll-link">Team</a></li>-->
-                        <li><a href="#contact" class="scroll-link">联系我们</a></li>
+            </div>
+        </div>
+    </div>
+</section><!--/#main-slider-->
+<section class="download-now" id="products">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">Our Product</h2>
+            <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae
+                massa <br> semper aliquam quis mattis quam.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 wp1 animated fadeInUp">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper
+                    aliquam quis mattis quam. Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut
+                    euismod massa, eu eleifend ipsum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+                    eget risus vitae massa semper aliquam quis mattis quam. Morbi vitae tortor tempus, placerat leo
+                    etorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper
+                    aliquam quis mattis quam. Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut
+                    euismod massa, eu eleifend ipsum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper
+                    aliquam quis mattis quam. Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut
+                    euismod massa, eu eleifend ipsum.</p>
+
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="features">
+                        <div class="col-md-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                            <div>
+                                <i class="fa fa-futbol-o"></i>
+                            </div>
+                            <div class="media service-box">
+
+                                <div class="media-body">
+                                    <h4 class="media-heading">Mobile App</h4>
+                                    <p>Backed by some of the biggest names in the industry, Firefox OS is an open
+                                        platform that fosters greater</p>
+                                </div>
+                            </div>
+                        </div><!--/.col-md-4-->
+
+                        <div class="col-md-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                            <div>
+                                <i class="fa fa-compass"></i>
+                            </div>
+                            <div class="media service-box">
+
+                                <div class="media-body">
+                                    <h4 class="media-heading">Custom App</h4>
+                                    <p>Backed by some of the biggest names in the industry, Firefox OS is an open
+                                        platform that fosters greater</p>
+                                </div>
+                            </div>
+                        </div><!--/.col-md-4-->
+
+                        <div class="col-md-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                            <div>
+                                <i class="fa fa-database"></i>
+                            </div>
+                            <div class="media service-box">
+
+                                <div class="media-body">
+                                    <h4 class="media-heading">E-Commerce</h4>
+                                    <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod
+                                        massa, eu eleifend ipsum.</p>
+                                </div>
+                            </div>
+                        </div><!--/.col-md-4-->
+
+                        <div class="col-md-6 fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                            <div>
+                                <i class="fa fa-bar-chart"></i>
+                            </div>
+                            <div class="media service-box">
+                                <div class="media-body">
+                                    <h4 class="media-heading">CMS App</h4>
+                                    <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod
+                                        massa, eu eleifend ipsum.</p>
+                                </div>
+                            </div>
+                        </div><!--/.col-md-4-->
+                    </div>
+                </div><!--/.row-->
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services">
+    <div class="container">
+
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">Our Services</h2>
+            <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae
+                massa <br> semper aliquam quis mattis quam.</p>
+        </div>
+
+        <div class="row">
+            <div class="features">
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                    <div class="media service-box">
+                        <div class="pull-left">
+                            <i class="fa fa-futbol-o"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Mobile App</h4>
+                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that
+                                fosters greater</p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                    <div class="media service-box">
+                        <div class="pull-left">
+                            <i class="fa fa-compass"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Custom App</h4>
+                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that
+                                fosters greater</p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                    <div class="media service-box">
+                        <div class="pull-left">
+                            <i class="fa fa-database"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">E-Commerce</h4>
+                            <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa,
+                                eu eleifend ipsum.</p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                    <div class="media service-box">
+                        <div class="pull-left">
+                            <i class="fa fa-bar-chart"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">CMS App</h4>
+                            <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa,
+                                eu eleifend ipsum.</p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
+                    <div class="media service-box">
+                        <div class="pull-left">
+                            <i class="fa fa-paper-plane-o"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Product Dev</h4>
+                            <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa,
+                                eu eleifend ipsum.</p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
+                    <div class="media service-box">
+                        <div class="pull-left">
+                            <i class="fa fa-bullseye"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">SharePoint</h4>
+                            <p>Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut euismod massa,
+                                eu eleifend ipsum.</p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+            </div>
+        </div><!--/.row-->
+    </div><!--/.container-->
+</section><!--/#services-->
+
+<section id="about">
+    <div class="container">
+
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">About Us</h2>
+            <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae
+                massa <br> semper aliquam quis mattis quam.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 wow fadeInLeft">
+                <img class="img-responsive" src="images/about.png" alt="">
+            </div>
+
+            <div class="col-sm-6 wow fadeInRight">
+                <h3 class="column-title">Our Company</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa semper
+                    aliquam quis mattis quam. Morbi vitae tortor tempus, placerat leo et, suscipit lectus. Phasellus ut
+                    euismod massa, eu eleifend ipsum.</p>
+
+                <p>Nulla eu neque commodo, dapibus dolor eget, dictum arcu. In nec purus eu tellus consequat ultricies.
+                    Donec feugiat tempor turpis, rutrum sagittis mi venenatis at. Sed molestie lorem a blandit congue.
+                    Ut pellentesque odio quis leo volutpat, vitae vulputate felis condimentum. </p>
+
+                <p>Praesent vulputate fermentum lorem, id rhoncus sem vehicula eu. Quisque ullamcorper, orci adipiscing
+                    auctor viverra, velit arcu malesuada metus, in volutpat tellus sem at justo.</p>
+
+
+                <a class="btn btn-primary" href="#">Learn More</a>
+
+            </div>
+        </div>
+    </div>
+</section><!--/#about-->
+
+
+<section id="portfolio">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">Our Works</h2>
+            <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae
+                massa <br> semper aliquam quis mattis quam.</p>
+        </div>
+
+        <div class="text-center">
+            <ul class="portfolio-filter">
+                <li><a class="active" href="#" data-filter="*">All Works</a></li>
+                <li><a href="#" data-filter=".designing">Designing</a></li>
+                <li><a href="#" data-filter=".mobile">Mobile App</a></li>
+                <li><a href="#" data-filter=".development">Development</a></li>
+            </ul><!--/#portfolio-filter-->
+        </div>
+
+        <div class="portfolio-items">
+            <div class="portfolio-item designing">
+                <div class="portfolio-item-inner">
+                    <img class="img-responsive" src="images/portfolio/01.jpg" alt="">
+                    <div class="portfolio-info">
+                        <h3>Project Name</h3>
+                        Some description..
+                        <a class="preview" href="images/portfolio/01.jpg" rel="prettyPhoto"><i
+                                class="fa fa-eye"></i></a>
+                    </div>
+                    <h4>Lorem Ipsum</h4>
+                </div>
+            </div><!--/.portfolio-item-->
+
+            <div class="portfolio-item mobile development">
+                <div class="portfolio-item-inner">
+                    <img class="img-responsive" src="images/portfolio/02.jpg" alt="">
+                    <div class="portfolio-info">
+                        <h3>Project Name</h3>
+                        Some description..
+                        <a class="preview" href="images/portfolio/02.jpg" rel="prettyPhoto"><i
+                                class="fa fa-eye"></i></a>
+                    </div>
+                    <h4>Lorem Ipsum</h4>
+                </div>
+            </div><!--/.portfolio-item-->
+
+            <div class="portfolio-item designing">
+                <div class="portfolio-item-inner">
+                    <img class="img-responsive" src="images/portfolio/03.jpg" alt="">
+                    <div class="portfolio-info">
+                        <h3>Project Name</h3>
+                        Some description..
+                        <a class="preview" href="images/portfolio/03.jpg" rel="prettyPhoto"><i
+                                class="fa fa-eye"></i></a>
+                    </div>
+                    <h4>Lorem Ipsum</h4>
+                </div>
+            </div><!--/.portfolio-item-->
+
+            <div class="portfolio-item mobile">
+                <div class="portfolio-item-inner">
+                    <img class="img-responsive" src="images/portfolio/04.jpg" alt="">
+                    <div class="portfolio-info">
+                        <h3>Project Name</h3>
+                        Some description..
+                        <a class="preview" href="images/portfolio/04.jpg" rel="prettyPhoto"><i
+                                class="fa fa-eye"></i></a>
+                    </div>
+                    <h4>Lorem Ipsum</h4>
+                </div>
+            </div><!--/.portfolio-item-->
+
+            <div class="portfolio-item designing development">
+                <div class="portfolio-item-inner">
+                    <img class="img-responsive" src="images/portfolio/05.jpg" alt="">
+                    <div class="portfolio-info">
+                        <h3>Project Name</h3>
+                        Some description..
+                        <a class="preview" href="images/portfolio/05.jpg" rel="prettyPhoto"><i
+                                class="fa fa-eye"></i></a>
+                    </div>
+                    <h4>Lorem Ipsum</h4>
+                </div>
+            </div><!--/.portfolio-item-->
+
+            <div class="portfolio-item mobile">
+                <div class="portfolio-item-inner">
+                    <img class="img-responsive" src="images/portfolio/06.jpg" alt="">
+                    <div class="portfolio-info">
+                        <h3>Project Name</h3>
+                        Some description..
+                        <a class="preview" href="images/portfolio/06.jpg" rel="prettyPhoto"><i
+                                class="fa fa-eye"></i></a>
+                    </div>
+                    <h4>Lorem Ipsum</h4>
+                </div>
+            </div><!--/.portfolio-item-->
+
+            <div class="portfolio-item designing development">
+                <div class="portfolio-item-inner">
+                    <img class="img-responsive" src="images/portfolio/07.jpg" alt="">
+                    <div class="portfolio-info">
+                        <h3>Project Name</h3>
+                        Some description..
+                        <a class="preview" href="images/portfolio/07.jpg" rel="prettyPhoto"><i
+                                class="fa fa-eye"></i></a>
+                    </div>
+                    <h4>Lorem Ipsum</h4>
+                </div>
+            </div><!--/.portfolio-item-->
+
+            <div class="portfolio-item mobile">
+                <div class="portfolio-item-inner">
+                    <img class="img-responsive" src="images/portfolio/08.jpg" alt="">
+                    <div class="portfolio-info">
+                        <h3>Project Name</h3>
+                        Some description..
+                        <a class="preview" href="images/portfolio/08.jpg" rel="prettyPhoto"><i
+                                class="fa fa-eye"></i></a>
+                    </div>
+                    <h4>Lorem Ipsum</h4>
+                </div>
+            </div><!--/.portfolio-item-->
+        </div>
+    </div><!--/.container-->
+</section><!--/#portfolio-->
+<div class="tlinks">Collect from <a href="http://www.cssmoban.com/">手机网站模板</a></div>
+<section id="team">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">Our Team</h2>
+            <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae
+                massa <br> semper aliquam quis mattis quam.</p>
+        </div>
+        <div class="row" data-anim-type="fade-in-up">
+
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('images/team/01.jpg')">
+                        <a href="#" target="_blank"> <i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="description">
+                        <h3> John Doe</h3>
+                        <h5><strong> Founder &amp; CEO </strong></h5>
+                        <p>
+                            Pellentesque elementum dapibus convallis.
+                            Vivamus eget finibus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('images/team/02.jpg')">
+                        <a href="#" target="_blank"> <i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="description">
+                        <h3> Armani Krist</h3>
+                        <h5><strong> Manager &amp; Designer </strong></h5>
+                        <p>
+                            Pellentesque elementum dapibus convallis.
+                            Vivamus eget finibus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('images/team/03.jpg')">
+                        <a href="#" target="_blank"> <i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="description">
+                        <h3> Micellir Faeny</h3>
+                        <h5><strong> Developer &amp; Designer </strong></h5>
+                        <p>
+                            Pellentesque elementum dapibus convallis.
+                            Vivamus eget finibus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="team-wrapper">
+                    <div class="team-inner" style="background-image: url('images/team/04.jpg')">
+                        <a href="#" target="_blank"> <i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="description">
+                        <h3> Kimten Lendy</h3>
+                        <h5><strong> Developer &amp; Designer </strong></h5>
+                        <p>
+                            Pellentesque elementum dapibus convallis.
+                            Vivamus eget finibus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="business-stats">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">Business Stats</h2>
+            <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae
+                massa <br> semper aliquam quis mattis quam.</p>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                    <div class="business-stats" data-digit="6850" data-duration="1000"></div>
+                    <strong>Clients</strong>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                    <div class="business-stats" data-digit="1465" data-duration="1000"></div>
+                    <strong>Completed</strong>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                    <div class="business-stats" data-digit="4325" data-duration="1000"></div>
+                    <strong>In Progress</strong>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+                    <div class="business-stats" data-digit="2568" data-duration="1000"></div>
+                    <strong>Revenue</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--/#business-stats-->
+
+<section id="pricing">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">Pricing</h2>
+            <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae
+                massa <br> semper aliquam quis mattis quam.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
+                    <ul class="pricing">
+                        <li class="plan-header">
+                            <div class="price-duration">
+								<span class="price">
+									$45
+								</span>
+                                <span class="duration">
+									per month
+								</span>
+                            </div>
+
+                            <div class="plan-name">
+                                Basic
+                            </div>
+                        </li>
+                        <li><strong>1</strong> DOMAIN</li>
+                        <li><strong>100GB</strong> DISK SPACE</li>
+                        <li><strong>UNLIMITED</strong> BANDWIDTH</li>
+                        <li>SHARED SSL CERTIFICATE</li>
+                        <li><strong>10</strong> EMAIL ADDRESS</li>
+                        <li><strong>24/7</strong> SUPPORT</li>
+                        <li class="plan-purchase"><a class="btn btn-primary" href="#">Get It Now!</a></li>
                     </ul>
                 </div>
-            </nav>
-        </div>
-    </div>
-</header>
-<!--Header_section-->
-
-<!--Hero_Section-->
-<section id="hero_section" class="top_cont_outer">
-    <div class="hero_wrapper">
-        <div class="container">
-            <div class="hero_section">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="top_left_cont zoomIn wow animated">
-                            <h2>儿童编程 <br></h2>
-                            <img src="" alt="儿童编程">
-                            <div class="underline"></div>
-                            <hr/>
-                            <p>长文字介绍儿童编程</p>
-                            <a href="#download" class="read_more2">download</a>
-
-                            <!--介绍游戏-->
-                            <img src="" alt="游戏界面">
-                            <p>长文字介绍游戏</p>
-
-                            <!--级别介绍-->
-                            <img src="" alt="级别图">
-                            <p>介绍级别</p>
-
-                            <!--编程用语介绍-->
-                            <img src="" alt="积木图">
-                            <p>编程用语介绍</p>
-
-                            <!--编程用语介绍-->
-                            <p>文字介绍视频</p>
-                            <video src="" autoplay>无法播放该视频</video>
-                            <hr>
-                            <h3>内容预告：</h3>
-                    </div>
-                    </div>
-
-
-                </div>
             </div>
-        </div>
-    </div>
-</section>
-<!--Hero_Section-->
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
+                    <ul class="pricing featured">
+                        <li class="plan-header">
+                            <div class="price-duration">
+								<span class="price">
+									$85
+								</span>
+                                <span class="duration">
+									per month
+								</span>
+                            </div>
 
-<section class="page_section" id="clients"><!--page_section-->
-    <h2>新闻活动</h2>
-    <!-- &lt;!&ndash;page_section&ndash;&gt;
-     <div class="client_logos">&lt;!&ndash;client_logos&ndash;&gt;
-         <div class="container">
-             <ul class="fadeInRight animated wow">
-                 <li><a href="javascript:void(0)"><img src="img/client_logo1.png" alt=""></a></li>
-                 <li><a href="javascript:void(0)"><img src="img/client_logo2.png" alt=""></a></li>
-                 <li><a href="javascript:void(0)"><img src="img/client_logo3.png" alt=""></a></li>
-                 <li><a href="javascript:void(0)"><img src="img/client_logo5.png" alt=""></a></li>
-             </ul>
-         </div>
-     </div>-->
-</section>
-<!--client_logos-->
-
-
-<!--Service-->
-<section id="service">
-    <div class="container">
-        <h2>Our Services</h2>
-        <h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
-        <div class="service_wrapper">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="service_icon delay-03s animated wow  zoomIn"><span><i class="fa fa-android"></i></span>
-                    </div>
-                    <div class="service_block">
-
-                        <h3 class="animated fadeInUp wow">Android</h3>
-                        <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. </p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="service_icon icon2  delay-03s animated wow zoomIn"><span><i
-                            class="fa fa-apple"></i></span></div>
-                    <div class="service_block">
-                        <h3 class="animated fadeInUp wow">Apple IOS</h3>
-                        <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. </p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="service_icon icon3  delay-03s animated wow zoomIn"><span><i
-                            class="fa fa-html5"></i></span></div>
-                    <div class="service_block">
-
-                        <h3 class="animated fadeInUp wow">Design</h3>
-                        <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. </p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="service_icon icon3  delay-03s animated wow zoomIn"><span><i
-                            class="fa fa-user"></i></span></div>
-                    <div class="service_block">
-
-                        <h3 class="animated fadeInUp wow">Development</h3>
-                        <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Service-->
-
-
-<!-- Portfolio -->
-<section id="Portfolio" class="content">
-
-    <!-- Container -->
-    <div class="container portfolio_title">
-
-        <!-- Title -->
-        <div class="section-title">
-            <h2>Portfolio</h2>
-            <h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
-
-        </div>
-        <!--/Title -->
-
-    </div>
-    <!-- Container -->
-
-    <div class="portfolio-top"></div>
-
-    <!-- Portfolio Filters -->
-    <div class="portfolio">
-
-        <div id="filters" class="sixteen columns">
-            <ul class="clearfix">
-                <li><a id="all" href="#" data-filter="*" class="active">
-                    <h5>All</h5>
-                </a></li>
-                <li><a class="" href="#" data-filter=".prototype">
-                    <h5>Prototype</h5>
-                </a></li>
-                <li><a class="" href="#" data-filter=".design">
-                    <h5>Design</h5>
-                </a></li>
-                <li><a class="" href="#" data-filter=".android">
-                    <h5>Android</h5>
-                </a></li>
-                <li><a class="" href="#" data-filter=".appleIOS">
-                    <h5>Apple IOS</h5>
-                </a></li>
-                <li><a class="" href="#" data-filter=".web">
-                    <h5>Web App</h5>
-                </a></li>
-            </ul>
-        </div>
-        <!--/Portfolio Filters -->
-
-        <!-- Portfolio Wrapper -->
-        <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;"
-             id="portfolio_wrapper">
-            <!-- Portfolio Item -->
-            <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-                    class="portfolio-item one-four   appleIOS isotope-item effect-oscar">
-
-                <div class="portfolio_img">
-                    <img src="img/portfolio_pic1.jpg" alt="Portfolio 1"></div>
-                <figcaption>
-                    <div>
-                        <a href="img/portfolio_pic1.jpg" class="fancybox">
-                            <h2>Warm <span>Oscar</span></h2>
-                            <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
-                        </a>
-                    </div>
-                </figcaption>
-            </figure>
-            <!--/Portfolio Item -->
-
-            <!-- Portfolio Item-->
-            <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-                    class="portfolio-item one-four  design isotope-item effect-oscar">
-                <div class="portfolio_img"><img src="img/portfolio_pic2.jpg" alt="Portfolio 1"></div>
-                <figcaption>
-                    <div>
-                        <a href="img/portfolio_pic2.jpg" class="fancybox">
-                            <h2>Warm <span>Oscar</span></h2>
-                            <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
-                        </a>
-                    </div>
-                </figcaption>
-            </figure>
-            <!--/Portfolio Item -->
-
-            <!-- Portfolio Item -->
-            <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-                    class="portfolio-item one-four  design  isotope-item effect-oscar">
-                <div class="portfolio_img"><img src="img/portfolio_pic3.jpg" alt="Portfolio 1"></div>
-                <figcaption>
-                    <div>
-                        <a href="img/portfolio_pic3.jpg" class="fancybox">
-                            <h2>Warm <span>Oscar</span></h2>
-                            <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
-                        </a>
-                    </div>
-                </figcaption>
-            </figure>
-            <!--/Portfolio Item-->
-
-            <!-- Portfolio Item-->
-            <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-                    class="portfolio-item one-four  android  prototype web isotope-item effect-oscar">
-                <div class="portfolio_img"><img src="img/portfolio_pic4.jpg" alt="Portfolio 1"></div>
-                <figcaption>
-                    <div>
-                        <a href="img/portfolio_pic4.jpg" class="fancybox">
-                            <h2>Warm <span>Oscar</span></h2>
-                            <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
-                        </a>
-                    </div>
-                </figcaption>
-            </figure>
-            <!-- Portfolio Item -->
-
-            <!-- Portfolio Item -->
-            <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-                    class="portfolio-item one-four  design isotope-item effect-oscar">
-                <div class="portfolio_img"><img src="img/portfolio_pic5.jpg" alt="Portfolio 1"></div>
-                <figcaption>
-                    <div>
-                        <a href="img/portfolio_pic5.jpg" class="fancybox">
-                            <h2>Warm <span>Oscar</span></h2>
-                            <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
-                        </a>
-                    </div>
-                </figcaption>
-            </figure>
-            <!--/Portfolio Item -->
-
-            <!-- Portfolio Item -->
-            <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-                    class="portfolio-item one-four  web isotope-item effect-oscar">
-                <div class="portfolio_img"><img src="img/portfolio_pic6.jpg" alt="Portfolio 1"></div>
-                <figcaption>
-                    <div>
-                        <a href="img/portfolio_pic6.jpg" class="fancybox">
-                            <h2>Warm <span>Oscar</span></h2>
-                            <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
-                        </a>
-                    </div>
-                </figcaption>
-            </figure>
-            <!--/Portfolio Item -->
-
-            <!-- Portfolio Item  -->
-            <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-                    class="portfolio-item one-four  design web isotope-item effect-oscar">
-                <div class="portfolio_img"><img src="img/portfolio_pic7.jpg" alt="Portfolio 1"></div>
-                <figcaption>
-                    <div>
-                        <a href="img/portfolio_pic7.jpg" class="fancybox">
-                            <h2>Warm <span>Oscar</span></h2>
-                            <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
-                        </a>
-                    </div>
-                </figcaption>
-            </figure>
-            <!--/Portfolio Item -->
-
-            <!-- Portfolio Item -->
-            <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
-                    class="portfolio-item one-four   android isotope-item effect-oscar">
-                <div class="portfolio_img"><img src="img/portfolio_pic8.jpg" alt="Portfolio 1"></div>
-                <figcaption>
-                    <div>
-                        <a href="img/portfolio_pic8.jpg" class="fancybox">
-                            <h2>Warm <span>Oscar</span></h2>
-                            <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
-                        </a>
-                    </div>
-                </figcaption>
-            </figure>
-            <!--/Portfolio Item -->
-
-        </div>
-        <!--/Portfolio Wrapper -->
-
-    </div>
-    <!--/Portfolio Filters -->
-
-    <div class="portfolio_btm"></div>
-
-
-    <div id="project_container">
-        <div class="clear"></div>
-        <div id="project_data"></div>
-    </div>
-
-
-</section>
-<!--/Portfolio -->
-
-<section id="aboutUs"><!--Aboutus-->
-    <div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
-        <div class="container">
-            <h2>About Us</h2>
-            <h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
-            <div class="inner_section">
-                <div class="row">
-                    <div class="col-md-6"><img class="img-responsive" src="img/about1.jpg" align=""></div>
-                    <div class="col-md-6">
-                        <h3>Who we are</h3>
-                        <p>Lorem ipsum dolor sit amet, quo meis voluptaria, erant bonorum albucius et per, ei placerat
-                            eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant
-                            bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel. Te
-                            sit malorum ceteros repudiandae, ne tritani adipisci vis.</p><br/>
-                        <h3>Why choose us?</h3>
-                        <p>Lorem ipsum dolor sit amet, voluptaria, erant bonorum albucius et per, ei meis audire
-                            placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria,
-                            erant voluptaria, erant bonorum albucius et per, ei albucius et per, ei sapientem
-                            accommodare est. Saepe dolorum constituam ei vel.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 about-us">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h3>Our Business</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida
-                                    tortor orci ipsum grectetur.sem quisci ipsum gravida tortor orci ipsum grectetur.
-                                    <br/> <br/>
-                                    Lorem ipsum dolor sit ametbi sagittis, orci ipsum gravida tortor. Lorem ipssum
-                                    gravida tortor. Lorem ipssum gravida tortor. Lorem ipssum gravida tortor. Lorem
-                                    ipssum gravida tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                </p>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida
-                                    tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, consectetur. <br/>
-                                    <br/>
-                                    Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quis lacinia faucibus,
-                                    orci ipsum gravida tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                </p>
-
-
-                            </div><!-- /.col-md-6 -->
-                            <div class="col-md-6">
-                                <h3>We Design Awesome Web Apps</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida
-                                    tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, tortor orci ipsum
-                                    gravida tortor. Lorem ipsum dolor sit amet, conseconsectetur.
-                                </p>
-
-                                <ul class="about-us-list">
-                                    <li class="points">Consectetur Morbi sagittis, sem quisci ipsum gravida tortor</li>
-                                    <li class="points">Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida
-                                    </li>
-                                    <li class="points">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem
-                                        quisci gravida
-                                    </li>
-                                    <li class="points">Sagittis, sem quis lacinia faucibus, orci ipsum gravida</li>
-                                    <li class="points">Ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci</li>
-                                </ul><!-- /.about-us-list -->
-
-                            </div><!-- /.col-md-6 -->
-
-                        </div><!-- /.row -->
-                    </div><!-- /.col-lg-12 -->
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-<!--Aboutus-->
-
-<!--download-->
-<section id="download">
-    <h2>下载</h2>
-
-</section>
-
-
-<!--<section class="page_section team" id="team">&lt;!&ndash;main-section team-start&ndash;&gt;
-    <div class="container">
-        <h2>Our Team</h2>
-        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing.</h6>
-
-        <div id="team" name="team">
-            <div class="container">
-                <div class="row centered">
-
-                    <div class="col-md-3 centered"><img class="img img-circle" src="img/team01.jpg" height="120px"
-                                                        width="120px" alt="">
-                        <h4><strong>Rosy Illue</strong></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor.</p>
-                        <br/>
-                        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a
-                                href="#"><i class="fa fa-linkedin"></i></a> <br/></div>
-                    <div class="col-md-3 centered"><img class="img img-circle" src="img/team02.jpg" height="120px"
-                                                        width="120px" alt="">
-                        <h4><b>Chrislke</b></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor.</p>
-                        <br/>
-                        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a
-                                href="#"><i class="fa fa-linkedin"></i></a> <br/></div>
-                    <div class="col-md-3 centered"><img class="img img-circle" src="img/team03.jpg" height="120px"
-                                                        width="120px" alt="">
-                        <h4><b>Mike Reiln</b></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor.</p>
-                        <br/>
-                        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a
-                                href="#"><i class="fa fa-linkedin"></i></a> <br/></div>
-                    <div class="col-md-3 centered"><img class="img img-circle" src="img/team04.jpg" height="120px"
-                                                        width="120px" alt="">
-                        <h4><b>Dennisel</b></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor.</p>
-                        <br/>
-                        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a
-                                href="#"><i class="fa fa-linkedin"></i></a> <br/></div>
-
-                </div>
-            </div>
-            &lt;!&ndash; row &ndash;&gt;
-        </div>
-    </div>
-</section>--><!--<section class="page_section team" id="team">&lt;!&ndash;main-section team-start&ndash;&gt;
-    <div class="container">
-        <h2>Our Team</h2>
-        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing.</h6>
-
-        <div id="team" name="team">
-            <div class="container">
-                <div class="row centered">
-
-                    <div class="col-md-3 centered"><img class="img img-circle" src="img/team01.jpg" height="120px"
-                                                        width="120px" alt="">
-                        <h4><strong>Rosy Illue</strong></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor.</p>
-                        <br/>
-                        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a
-                                href="#"><i class="fa fa-linkedin"></i></a> <br/></div>
-                    <div class="col-md-3 centered"><img class="img img-circle" src="img/team02.jpg" height="120px"
-                                                        width="120px" alt="">
-                        <h4><b>Chrislke</b></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor.</p>
-                        <br/>
-                        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a
-                                href="#"><i class="fa fa-linkedin"></i></a> <br/></div>
-                    <div class="col-md-3 centered"><img class="img img-circle" src="img/team03.jpg" height="120px"
-                                                        width="120px" alt="">
-                        <h4><b>Mike Reiln</b></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor.</p>
-                        <br/>
-                        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a
-                                href="#"><i class="fa fa-linkedin"></i></a> <br/></div>
-                    <div class="col-md-3 centered"><img class="img img-circle" src="img/team04.jpg" height="120px"
-                                                        width="120px" alt="">
-                        <h4><b>Dennisel</b></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor.</p>
-                        <br/>
-                        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a
-                                href="#"><i class="fa fa-linkedin"></i></a> <br/></div>
-
-                </div>
-            </div>
-            &lt;!&ndash; row &ndash;&gt;
-        </div>
-    </div>
-</section>-->
-<!--/Team-->
-<!--Footer-->
-<footer class="footer_wrapper" id="contact">
-    <div class="container">
-        <section class="page_section contact" id="contact">
-            <div class="contact_section">
-                <h2>Contact Us</h2>
-                <h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
-
-            </div>
-            <div class="row">
-                <div class="col-lg-4 wow fadeInLeft">
-                    <div class="contact_info">
-                        <div class="detail">
-                            <h4>UNIQUE Infoway</h4>
-                            <p>104, Some street, NewYork, USA</p>
-                        </div>
-                        <div class="detail">
-                            <h4>call us</h4>
-                            <p>+1 234 567890</p>
-                        </div>
-                        <div class="detail">
-                            <h4>Email us</h4>
-                            <p>support@sitename.com</p>
-                        </div>
-                    </div>
-
-
-                    <ul class="social_links">
-                        <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i
-                                class="fa fa-twitter"></i></a></li>
-                        <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i
-                                class="fa fa-facebook"></i></a></li>
-                        <li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i
-                                class="fa fa-pinterest"></i></a></li>
-                        <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i
-                                class="fa fa-google-plus"></i></a></li>
+                            <div class="plan-name">
+                                Business
+                            </div>
+                        </li>
+                        <li><strong>5</strong> DOMAIN</li>
+                        <li><strong>500GB</strong> DISK SPACE</li>
+                        <li><strong>UNLIMITED</strong> BANDWIDTH</li>
+                        <li>SHARED SSL CERTIFICATE</li>
+                        <li><strong>30</strong> EMAIL ADDRESS</li>
+                        <li><strong>24/7</strong> SUPPORT</li>
+                        <li class="plan-purchase"><a class="btn btn-primary" href="#">Get It Now!</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-8 wow fadeInLeft delay-06s">
-                    <div class="form">
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="400ms">
+                    <ul class="pricing">
+                        <li class="plan-header">
+                            <div class="price-duration">
+								<span class="price">
+									$125
+								</span>
+                                <span class="duration">
+									per month
+								</span>
+                            </div>
 
+                            <div class="plan-name">
+                                Professional
+                            </div>
+                        </li>
+                        <li><strong>10</strong> DOMAIN</li>
+                        <li><strong>2GB</strong> DISK SPACE</li>
+                        <li><strong>UNLIMITED</strong> BANDWIDTH</li>
+                        <li>SHARED SSL CERTIFICATE</li>
+                        <li><strong>50</strong> EMAIL ADDRESS</li>
+                        <li><strong>24/7</strong> SUPPORT</li>
+                        <li class="plan-purchase"><a class="btn btn-primary" href="#">Get It Now!</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="600ms">
+                    <ul class="pricing">
+                        <li class="plan-header">
+                            <div class="price-duration">
+								<span class="price">
+									$185
+								</span>
+                                <span class="duration">
+									per month
+								</span>
+                            </div>
+
+                            <div class="plan-name">
+                                Extended
+                            </div>
+                        </li>
+                        <li><strong>15</strong> DOMAIN</li>
+                        <li><strong>10GB</strong> DISK SPACE</li>
+                        <li><strong>UNLIMITED</strong> BANDWIDTH</li>
+                        <li>SHARED SSL CERTIFICATE</li>
+                        <li><strong>100</strong> EMAIL ADDRESS</li>
+                        <li><strong>24/7</strong> SUPPORT</li>
+                        <li class="plan-purchase"><a class="btn btn-primary" href="#">Get It Now!</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!--/#pricing-->
+
+<section class="testimonial-area" id="testimonial">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">Testimonial</h2>
+            <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae
+                massa <br> semper aliquam quis mattis quam.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="single-testimonial animate_fade_in" style="opacity: 1; right: 0px;">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <blockquote>Sontrary to popular belief, Lorem Ipsuis no simply random text. It has roots in
+                                a piece of classical Layears old. belief, Lorem Ipsuis not simply
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h5>John Bond</h5>
+                            <h6>Lorem Ipsuis simply</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="single-testimonial animate_fade_in" style="opacity: 1; right: 0px;">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <blockquote>Tontrary to popular belief, Lorem Ipsuis no simply random text. It has roots in
+                                a piece of classical Layears old. belief, Lorem Ipsuis not simply
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h5>John Bond</h5>
+                            <h6>Lorem Ipsuis simply</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="single-testimonial animate_fade_in" style="opacity: 1; right: 0px;">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <blockquote>Aontrary to popular belief, Lorem Ipsuis no simply random text. It has roots in
+                                a piece of classical Layears old. belief, Lorem Ipsuis not simply
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h5>John Bond</h5>
+                            <h6>Lorem Ipsuis simply</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact-us">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title wow fadeInDown">Contact Us</h2>
+            <p class="wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae
+                massa <br> semper aliquam quis mattis quam.</p>
+        </div>
+    </div>
+</section><!--/#contact-us-->
+
+
+<section id="contact">
+
+    <div class="container">
+        <div class="container contact-info">
+            <div class="row">
+                <div class="col-sm-4 col-md-4">
+                    <div class="contact-form">
+                        <h3>Our Address</h3>
+
+                        <address>
+                            <strong>Amazing Company, Inc.</strong><br>
+                            12345 NewYork, Street 125<br>
+                            United States 94107<br>
+                            <abbr title="Phone">P:</abbr> (123) 456-7890
+                        </address>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-8">
+                    <div class="contact-form">
                         <!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
                         <form name="sentMessage" id="contactForm" novalidate>
-                            <h3>Contact Form</h3>
                             <div class="control-group">
                                 <div class="controls">
-                                    <input type="text" class="form-control input-text"
+                                    <input type="text" class="form-control"
                                            placeholder="Full Name" id="name" required
                                            data-validation-required-message="Please enter your name"/>
                                     <p class="help-block"></p>
@@ -563,7 +729,7 @@
                             </div>
                             <div class="control-group">
                                 <div class="controls">
-                                    <input type="email" class="form-control input-text" placeholder="Email"
+                                    <input type="email" class="form-control" placeholder="Email"
                                            id="email" required
                                            data-validation-required-message="Please enter your email"/>
                                 </div>
@@ -571,40 +737,54 @@
 
                             <div class="control-group">
                                 <div class="controls">
-		<textarea rows="10" cols="100" class="form-control input-text"
-                  placeholder="Message" id="message" required
-                  data-validation-required-message="Please enter your message" minlength="5"
-                  data-validation-minlength-message="Min 5 characters"
-                  maxlength="999" style="resize:none"></textarea>
+	<textarea rows="10" cols="100" class="form-control"
+              placeholder="Message" id="message" required
+              data-validation-required-message="Please enter your message" minlength="5"
+              data-validation-minlength-message="Min 5 characters"
+              maxlength="999" style="resize:none"></textarea>
                                 </div>
                             </div>
                             <div id="success"></div> <!-- For success/fail messages -->
-                            <button type="submit" class="btn btn-primary input-btn pull-right">Send</button>
+                            <button type="submit" class="btn btn-primary pull-right">Send</button>
                             <br/>
                         </form>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
-    <div class="container">
-        <div class="footer_bottom">隔音智能科技有限公司<a
-                href="#" target="_blank" title="隔音智能">隔音智能</a> - Collect from <a
-                href="#" title="官方网页" target="_blank">官方网页</a></div>
-    </div>
-</footer>
+</section><!--/#bottom-->
 
-<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
-<script type="text/javascript" src="js/jquery.nav.js"></script>
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/jquery.isotope.js"></script>
-<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-<script type="text/javascript" src="js/wow.js"></script>
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">Copyright &copy; 2016.Company name All rights reserved.More Templates <a
+                    href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a
+                    href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></div>
+            <div class="col-sm-6">
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer><!--/#footer-->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/mousescroll.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.inview.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script src="contact/jqBootstrapValidation.js"></script>
 <script src="contact/contact_me.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
-
+<script src="js/custom-scripts.js"></script>
 </body>
 </html>
